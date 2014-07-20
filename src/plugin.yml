@@ -1,0 +1,4 @@
+name: LobbyEss
+version: 1.0
+main: net.mcdirect.plugins.lobby.Header
+description: LobbyEssentials!

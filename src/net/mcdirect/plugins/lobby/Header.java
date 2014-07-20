@@ -17,7 +17,7 @@ public class Header extends JavaPlugin {
 	public final Logger logger = Logger.getLogger("Minecraft");
 	
 	public void onEnable() {
-		
+		log("Plugin now Enabled.");
 	}
 	
 	public void onDisable() {
