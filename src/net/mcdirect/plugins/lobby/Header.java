@@ -2,6 +2,8 @@ package net.mcdirect.plugins.lobby;
 
 import java.util.logging.Logger;
 
+import net.mcdirect.plugins.lobby.listeners.Inventory_Deny;
+
 import org.bukkit.plugin.java.JavaPlugin;
 
 /*
@@ -17,7 +19,9 @@ public class Header extends JavaPlugin {
 	public final Logger logger = Logger.getLogger("Minecraft");
 	
 	public void onEnable() {
+		new Inventory_Deny(this);
 		log("Plugin now Enabled.");
+		
 	}
 	
 	public void onDisable() {
